@@ -26,13 +26,19 @@ header{
     border: 3px solid #5B4C5E;
 }
 
+/*hero section*/ 
+
 #hero img{
     width: 300px;
 }
 
+/*Bio section*/
+
 #bio{
     text-align: center;
 }
+
+/*Hobbies section*/
 
 #hobbies{
     text-align: center;
@@ -55,6 +61,46 @@ header{
 
 #hobbies ul li:nth-child(odd){
     color:darkmagenta;
+}
+
+/*Gallery section*/
+
+#gallery{
+
+    border: 3px solid #5B4C5E;
+
+}
+
+#gallery img{
+
+    max-width:100%;
+
+}
+
+#gallery figure{
+
+    text-align: center;
+
+}
+
+#gallery figcaption{
+    background-color: #6DDE74;
+    text-align: center;
+    font-size: 20pt;
+    padding: 10px;
+    border: 3px solid #5B4C5E;
+}
+
+#gallery img{
+
+    border: 5px solid darkmagenta;
+
+}
+
+#gallery hr{
+
+    border:3px solid darkmagenta;
+
 }
 
 
