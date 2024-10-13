@@ -13,6 +13,11 @@ h1 {
     font-size: 40pt;
 }
 
+h2{
+    font-size: 35pt;
+    margin: .1em;
+}
+
 header{
     text-align: center;
     
@@ -40,7 +45,14 @@ header{
 
 /*Hobbies section*/
 
+*{
+    outline: 1px solid red;
+}
+
 #hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -54,6 +66,7 @@ header{
     background-color: #6DDE74;
     list-style-type: square;
 }
+
 
 #hobbies ul li:nth-child(even){
     color:black;
@@ -86,7 +99,7 @@ header{
 #gallery figcaption{
     background-color: #6DDE74;
     text-align: center;
-    font-size: 20pt;
+    font-size: 25pt;
     padding: 10px;
     border:3px solid darkmagenta;
 }
@@ -137,6 +150,22 @@ font-size: 25pt;
     padding-top: 2px;
     padding-right: 4px;
     padding-left: 2px;
+
+}
+
+@media screen and (min-width: 60em){
+
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
 
 }
 
