@@ -45,9 +45,6 @@ header{
 
 /*Hobbies section*/
 
-*{
-    outline: 1px solid red;
-}
 
 #hobbies{
     display: flex;
@@ -167,7 +164,41 @@ font-size: 25pt;
         margin-left: 1rem;
     }
 
+    figure img{
+        width: 100%;
+    }
+
+    
+
+    #Lit div{
+        max-width: 100%;
+        columns: 22rem;
+    }
+
 }
+
+/* Large Screen Size*/
+
+@media screen and (min-width:100em){
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr{
+        display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure{
+        display: block;
+    }
+}
+
+
 
 
 
