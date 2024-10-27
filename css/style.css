@@ -70,7 +70,7 @@ header{
 }
 
 #hobbies ul li:nth-child(odd){
-    color:darkmagenta;
+    color:black;
 }
 
 /*Gallery section*/
@@ -198,6 +198,26 @@ font-size: 25pt;
     }
 }
 
+/*Video*/
+
+#video iframe{
+    border: 3px solid darkmagenta;
+    max-width:100%;
+    background-color: #6DDE74;
+    text-align: center;
+    font-size: 25pt;
+    padding: 1rem;
+    border:3px solid darkmagenta;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#video h3{
+    font-size: 20pt;
+    
+}
 
 
 
