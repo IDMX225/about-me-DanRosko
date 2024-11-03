@@ -99,11 +99,13 @@ header{
     font-size: 25pt;
     padding: 10px;
     border:3px solid darkmagenta;
+    border-radius: 1rem;
 }
 
 #gallery img{
 
     border: 5px solid darkmagenta;
+    border-radius: 1rem;
 
 }
 
@@ -212,6 +214,7 @@ font-size: 25pt;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 1rem;
 }
 
 #video h3{
@@ -223,8 +226,57 @@ font-size: 25pt;
 
 #formElements{
     display: grid;
+    row-gap: .5em;
 }
 
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+#contact label{
+    font-size: 15pt;
+}
+
+#contact li{
+    list-style-type:none;
+    font-size: 15pt;
+    margin: 1rem;
+}
+
+fieldset{
+    border:2px solid darkmagenta;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+}
+
+legend{
+    background-color: #6DDE74;
+    border:3px solid darkmagenta;
+    text-align: center;
+    font-size: 17pt;
+    border-radius: 1rem;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    padding: 0px;
+}
+
+#contact button{
+    background-color: #6DDE74;
+    border:3px solid darkmagenta;
+    max-width: 400px;
+    width:50%;
+    justify-self: center;
+    border-radius: 1rem;
+}
 
 
 
