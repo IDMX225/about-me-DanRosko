@@ -272,6 +272,7 @@ legend{
 #contact button{
     background-color: #6DDE74;
     border:3px solid darkmagenta;
+    font-weight: bold;
     max-width: 400px;
     width:50%;
     justify-self: center;
