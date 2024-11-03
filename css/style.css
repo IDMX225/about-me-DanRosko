@@ -219,6 +219,11 @@ font-size: 25pt;
     
 }
 
+/*Contact Form*/
+
+#formElements{
+    display: grid;
+}
 
 
 
