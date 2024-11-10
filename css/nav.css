@@ -24,6 +24,19 @@ main{
 
 /* navbar */
 
+header{
+    padding: 2vw;
+}
+
+.navbar{
+    background-color: #6DDE74;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 3px solid darkmagenta;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
 
 
 /* logo */
