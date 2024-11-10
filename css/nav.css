@@ -70,14 +70,20 @@ header{
 */
 
 .navbar-links a{
-    color: #5B4C5E;
+    color: #6DDE74;
+    background-color: #5B4C5E;
     font-size: 2rem;
     padding: .5rem 1.5rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+    border-radius: 10px;
 }
 
+.navbar-links a:hover, .navbar-links a:focus{
+    filter: invert(1); 
+    border-radius: 10px;
+}
 
 
 /* 
