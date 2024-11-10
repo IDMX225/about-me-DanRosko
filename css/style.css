@@ -117,19 +117,19 @@ header{
 
 /*Lit Section*/
 
-#Lit{
+#lit{
     border: 5px solid darkmagenta;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-#Lit h2{
+#lit h2{
 
 font-size: 25pt;
 
 }
 
-#Lit div{
+#lit div{
 
     text-align: center;
     font-size: 17pt;
@@ -139,7 +139,7 @@ font-size: 25pt;
 
 }
 
-#Lit div p:nth-child(2n+1)::first-letter{
+#lit div p:nth-child(2n+1)::first-letter{
 
     color:darkmagenta;
     float: center;
