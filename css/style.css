@@ -35,12 +35,18 @@ header{
 
 #hero img{
     width: 300px;
+    vertical-align: middle;
+    border-radius: 50%;
 }
 
 /*Bio section*/
 
 #bio{
     text-align: center;
+}
+
+#bio p{
+    font-size: 20pt;
 }
 
 /*Hobbies section*/
@@ -54,7 +60,7 @@ header{
 }
 
 #hobbies  ul {
-    
+    list-style: none;
     font-size: 20pt;
     padding: 10px;
     border: 3px solid #5B4C5E;
@@ -71,6 +77,13 @@ header{
 
 #hobbies ul li:nth-child(odd){
     color:black;
+}
+
+#hobbies ul li{
+    list-style: none;
+    margin: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 /*Gallery section*/
