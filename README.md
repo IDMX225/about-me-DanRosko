@@ -18,6 +18,14 @@ What is the About Me Project? The About Me Project is a an intro to the world of
 - As I begin to close off my About me Project we head to my imbedded media which is a youtube video. This was my first introduction to adding media from other websites into my site. While I created the video, learning the process of embedding media is an incredible tool that almost all websites use.
 - The final portion of my website is a a fully function contact form. Anyone is able to submit a form and I will be able to see the messages and reply as needed. This form is also completely styled with with CSS and made interactive with HTML
 
+## Sources for Blog 
+- [Ricardo Gomez Angel from Unsplash for the free image](https://unsplash.com/photos/field-of-pink-petaled-flowers-irH4eWglioI)
+- [Carl Raw from unsplash for the free image](https://unsplash.com/photos/arcade-game-station-8Gdayy2Lhi0)
+- [Codepen.io for coding help and resources](https://codepen.io/nxworld/pen/ZYNOBZ)
+- [W3 Schools for help with code and syntax](https://www.w3schools.com/css/default.asp)
+- [Brandmen Marketing Agency for help with code and inspiration](https://thebrandsmen.com/css-image-hover-effects/)
+- [W3 Bits for help with information and ideas](https://w3bits.com/css-image-hover-zoom/)
+
 ## Sources
 - [W3 Schools for help with borders](https://www.w3schools.com/css/css_border.asp)
 - [W3 Schools for help with padding](https://www.w3schools.com/css/css_padding.asp)

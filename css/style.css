@@ -165,6 +165,35 @@ font-size: 25pt;
 
 }
 
+#lit img{
+    max-width:100%;
+    border: 5px solid darkmagenta;
+    border-radius: 1rem;
+}
+
+.color img{
+    transition: 1s ease;
+    filter: grayscale(100%);
+}
+
+.color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    filter: none;
+    transition: 1s ease;
+}
+
+.shrink img {
+    transition: 1s ease;
+}
+    
+.shrink img:hover{
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+
+
 @media screen and (min-width: 60em){
 
     figure{
